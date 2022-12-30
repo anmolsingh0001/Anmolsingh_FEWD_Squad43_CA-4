@@ -1,0 +1,155 @@
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 5%;
+}
+
+.ques{
+    padding-top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+.cont{
+    padding: 2%;
+    font-size: 20px;
+}
+
+.textt{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    font-size: 25px;
+    color: red;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.done{
+    height: 6vh;
+    width: 10vw;
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+    font-size: 17px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.done2{
+    height: 6vh;
+    width: 10vw;
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+    font-size: 17px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.high{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.light{
+    height: 5vh;
+    border-radius: 1rem;
+    width: 6vw;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.option{
+    background-color: darkgrey;
+    color: white;
+    margin: 0.5%;
+    font-size: 20px;
+    border-radius: 1rem;
+    /* text-align: center; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 70vw;
+    margin-left: 6%;
+    cursor: pointer;
+}
+
+.main{
+    color: black;
+    background-color: #ddd8d8;
+    text-align: center;
+    height: 70vh;
+    width: 80vw;
+    margin-left: 10%;
+    /* margin-top: 9%; */
+    border-radius: 0.8rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.result{
+    background-color: #a49d9d;
+    height: 50vh;
+    width: 60vw;
+    margin-left: 18%;
+    margin-top: 6%;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background-color: #6e6a6a;
+}
+
+.final{
+    font-size: 25px;
+    padding-top: 3%;
+}
+
+@media screen and (max-width:600px){
+    .light{
+        width: 150%;
+        height: 80%;
+    }
+
+    .grid2{
+        font-size: 15px;
+    }
+
+    .done{
+        width: 40%;
+        height: 26px;
+        font-size: 10px;
+    }
+
+    .done2{
+    font-size: 10px;
+    height: 5vh;
+    width: 20vw;
+    }
+
+    .option{
+        height: 5vh;
+        font-size: 12px;
+    }
+}
